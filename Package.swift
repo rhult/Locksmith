@@ -7,6 +7,6 @@ let package = Package(
     .iOS("12.0"),
   ],
   products: [
-    .library(name: "Locksmith", targets: ["Locksmith"]),
+    .library(name: "Locksmith", targets: ["Locksmith iOS"]),
   ]
 )
